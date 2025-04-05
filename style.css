@@ -67,3 +67,75 @@ p {
     left: 995px;
     top: 428px;
 }
+
+/* So pra dar uma quebra de linhas */
+
+@media (max-width: 450px ) {
+    img {
+        position: absolute;
+    }
+    #my_pfp {
+        width: 200px;
+        height: auto;
+        border-radius: 25px;
+        left: 30px;
+        top: 330px;
+    }
+    
+    nav {
+        position: absolute;
+        top: 10px;
+        left: 45%;
+        transform: translateX(-50%);
+        background-color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .nav {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .hp {
+        background-color: black;
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .hp:hover {
+        background-color: darkgrey;
+    }
+    
+    h1, h2, p {
+        color: white;
+        position: absolute;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    h1 {
+        font-size: 20px;
+        left: 243px;
+        top: 350px;
+    }
+    
+    h2 {
+        font-size: 17px;  
+        left: 235px;
+        top: 375px;
+    }
+    
+    p {
+        font-size: 16px;
+        left: 234px;
+        top: 395px;
+    }
+}
