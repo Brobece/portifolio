@@ -70,15 +70,15 @@ p {
 
 /* So pra dar uma quebra de linhas */
 
-@media (max-width: 450px ) {
+@media (min-width: 320px ) {
     img {
         position: absolute;
     }
     #my_pfp {
-        width: 200px;
+        width: 150px;
         height: auto;
         border-radius: 25px;
-        left: 30px;
+        left: 20px;
         top: 330px;
     }
     
@@ -122,20 +122,20 @@ p {
     }
     
     h1 {
-        font-size: 23px;
-        left: 235px;
-        top: 350px;
+        font-size: 22px;
+        left: 177px;
+        top: 352px;
     }
     
     h2 {
         font-size: 17px;  
-        left: 235px;
-        top: 375px;
+        left: 175px;
+        top: 377px;
     }
     
     p {
-        font-size: 16px;
-        left: 234px;
-        top: 395px;
+        font-size: 15px;
+        left: 178px;
+        top: 397px;
     }
 }
